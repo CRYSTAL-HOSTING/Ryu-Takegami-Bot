@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7526291747:AAFoFn2gWshY8bPybxpu1kPp6A0vsnc3daY")
 API_ID = int(os.environ.get("API_ID", "28585290"))
-API_HASH = os.environ.get("API_HASH", "7e250aaf4f19530d1debaebace4454bc"")
+API_HASH = os.environ.get("API_HASH", "7e250aaf4f19530d1debaebace4454bc")
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "5593644710"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://CrystalTelegramDB:CRYSTAL073@ryu-takegami-bot.kxteh.mongodb.net/?retryWrites=true&w=majority&appName=Ryu-Takegami-Bot")
