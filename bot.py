@@ -59,7 +59,7 @@ class Bot(Client):
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
             self.db_channel = db_channel
-            test = await self.send_message(chat_id = db_channel.id, text = "Hey 🖐")
+            test = await self.send_message(chat_id = db_channel.id, text = "👨‍💻 DATABASE IS WORKING 👍")
             await test.delete()
         except Exception as e:
             self.LOGGER(__name__).warning(e)
@@ -69,7 +69,7 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated By \nhttps://t.me/Madflix_Bots")
-        self.LOGGER(__name__).info(f"""ミ💖 MADFLIX BOTZ 💖彡""")
+        self.LOGGER(__name__).info(f"""ミ🌐 CRYSTAL BOT DEVELOPMENT 👨‍💻彡""")
         self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
