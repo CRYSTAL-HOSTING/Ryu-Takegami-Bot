@@ -10,7 +10,7 @@ API_ID = int(os.environ.get("API_ID", "28585290"))
 API_HASH = os.environ.get("API_HASH", "7e250aaf4f19530d1debaebace4454bc")
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "5593644710"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://CrystalTelegramDB:CRYSTAL073@ryu-takegami-bot.kxteh.mongodb.net/?retryWrites=true&w=majority&appName=Ryu-Takegami-Bot")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://CrystalTelegramDB:CRYSTAL073@john-wick-bot.lci6o.mongodb.net/?retryWrites=true&w=majority&appName=John-Wick-Bot")
 DB_NAME = os.environ.get("DB_NAME", "CrystalTelegramDB2")
 
 
